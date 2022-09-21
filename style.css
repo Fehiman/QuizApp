@@ -1,0 +1,60 @@
+body{
+    font-size: 140%;
+}
+
+div{
+    padding: 1rem;
+    
+}
+
+#card{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.basliklar{
+    border-bottom: 1px solid gray;
+    background-color: #f7f7f7;
+    border: 1px solid rgb(223, 222, 222);
+    
+    font-size: 80%;
+}
+
+#icerik{
+    font-weight: 640;
+    border-left: 1px solid rgb(223, 222, 222);
+    border-right: 1px solid rgb(223, 222, 222);
+}
+
+p{
+    font-size: 32px;
+}
+
+button{
+    background-color:#007bff;
+    color: #d6ffff;
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 350;
+}
+
+#buttons{
+    padding: 0px;
+}
+
+.ustRadius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.altRadius{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
